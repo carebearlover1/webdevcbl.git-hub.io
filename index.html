@@ -21,23 +21,26 @@
 		<!-- Подключаем наш файл со стилями, который находится в папке css-->
 		<link rel="stylesheet" href="css/bootstrap-grid.min.css">
 		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/animate.css">
 </head>
 
 <body>
+	<!-- JS -->
+	<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
  <!-- Тут будет модержимое будущего сайта -->
 	<header>
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-7">
-					<img class="header-img" src="images/main-img.png" alt="computer">
+					<img class="header-img animated fadeInLeft" src="images/main-img.png" alt="computer">
 				</div>
 				<!-- /.col-7 -->
 				<div class="col-lg-5">
-					<p class="header-pretitle">Веб-разработчик</p>
-					<h1 class="header-title">Дмитрий Сазонов</h1>
-					<p class="header-subtitle">Верстка на HTML/CSS <br>
+					<p class="header-pretitle animated fadeInRight">Веб-разработчик</p>
+					<h1 class="header-title animated fadeInRight">Дмитрий Сазонов</h1>
+					<p class="header-subtitle animated fadeInRight">Верстка на HTML/CSS/JS <br>
 					Разработка сайтов под ключ</p>
-					<div class="header-button-block"  id="button">
+					<div class="header-button-block animated fadeInRight"  id="button">
 						<a class="header-button" href="https://vk.com/carebearlover">Связаться</a>
 						<small>*Это бесплатно</small>
 					</div>
@@ -51,7 +54,7 @@
 
 	<section class="portfolio">
 		<div class="container">
-			<div class="portfolio-block">
+			<div class="portfolio-block animated fadeInUp">
 			<h2 class="portfolio-title">Портфолио</h2>
 			<p class="portfolio-subtitle">Мои работы</p>
 			<div class="row">
@@ -89,10 +92,11 @@
 				<div class="col-md-4">
 					<div class="social-block">
 						<p>Подпишитесь: </p>
-						<a href="https://www.facebook.com"><img src="images/social/facebook-logo-button.png" alt="Facebook"></a>
-						<a href="https://vk.com"><img src="images/social/vk-social-logotype.png" alt="VK"></a>
-						<a href="https://telegram.org"><img src="images/social/telegram-symbol.png" alt="Telegram"></a>
-						<a href="https://www.youtube.com"><img src="images/social/youtube-symbol.png" alt="YouTube"></a>
+						<a href="https://www.facebook.com"><img class="animated bounceInUp" src="images/social/facebook-logo-button.png" alt="Facebook"></a>
+						<a href="https://vk.com"><img
+						class="animated bounceInUp" src="images/social/vk-social-logotype.png" alt="VK"></a>
+						<a href="https://telegram.org"><img class="animated bounceInUp" src="images/social/telegram-symbol.png" alt="Telegram"></a>
+						<a href="https://www.youtube.com"><img class="animated bounceInUp" src="images/social/youtube-symbol.png" alt="YouTube"></a>
 					</div>
 				</div>
 				<!-- /.col-4 -->

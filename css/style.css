@@ -53,7 +53,7 @@ header small{
 }
 
 #button:hover {
-	opacity: 0.5;
+	opacity: .5;
 	transform: scale(1.1);
 }
 
@@ -163,7 +163,14 @@ footer {
 	margin-bottom: 13px;	
 }
 
+.footer-button:hover {
+	background-color: #fff;
+	color: #3a7dfd;
+}
+
 .footer-button { 
+	transition: .2s;
+
 	text-decoration: none;
 	display: inline-block;
 	height: 48px;
