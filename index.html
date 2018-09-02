@@ -32,15 +32,15 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-7">
-					<img class="header-img animated fadeInLeft" src="images/main-img.png" alt="computer">
+					<img class="header-img wow fadeInLeft" src="images/main-img.png" alt="computer">
 				</div>
 				<!-- /.col-7 -->
 				<div class="col-lg-5">
-					<p class="header-pretitle animated fadeInRight">Веб-разработчик</p>
-					<h1 class="header-title animated fadeInRight">Дмитрий Сазонов</h1>
-					<p class="header-subtitle animated fadeInRight">Верстка на HTML/CSS/JS <br>
+					<p class="header-pretitle wow fadeInRight" data-wow-delay="0.1s">Веб-разработчик</p>
+					<h1 class="header-title wow fadeInRight" data-wow-delay="0.2s">Дмитрий Сазонов</h1>
+					<p class="header-subtitle wow fadeInRight" data-wow-delay="0.3s">Верстка на HTML/CSS/JS <br>
 					Разработка сайтов под ключ</p>
-					<div class="header-button-block animated fadeInRight"  id="button">
+					<div class="header-button-block wow fadeInRight"  id="button" data-wow-delay="0.4s">
 						<a class="header-button" href="https://vk.com/carebearlover">Связаться</a>
 						<small>*Это бесплатно</small>
 					</div>
@@ -92,11 +92,14 @@
 				<div class="col-md-4">
 					<div class="social-block">
 						<p>Подпишитесь: </p>
-						<a href="https://www.facebook.com"><img class="animated bounceInUp" src="images/social/facebook-logo-button.png" alt="Facebook"></a>
-						<a href="https://vk.com"><img
-						class="animated bounceInUp" src="images/social/vk-social-logotype.png" alt="VK"></a>
-						<a href="https://telegram.org"><img class="animated bounceInUp" src="images/social/telegram-symbol.png" alt="Telegram"></a>
-						<a href="https://www.youtube.com"><img class="animated bounceInUp" src="images/social/youtube-symbol.png" alt="YouTube"></a>
+						<a href="https://www.facebook.com"  class="wow fadeInDown" 
+data-wow-delay="0.1s"><img src="images/social/facebook-logo-button.png" alt="Facebook"  ></a>
+						<a href="https://vk.com"  class="wow fadeInDown"
+ 						data-wow-delay="0.2s"><img
+						src="images/social/vk-social-logotype.png" alt="VK"></a>
+						<a href="https://telegram.org"  class="wow fadeInDown"
+						data-wow-delay="0.3s"><img src="images/social/telegram-symbol.png" alt="Telegram" ></a>
+						<a href="https://www.youtube.com"  class="wow fadeInDown" data-wow-delay="0.4s"><img src="images/social/youtube-symbol.png" alt="YouTube"></a>
 					</div>
 				</div>
 				<!-- /.col-4 -->
@@ -111,5 +114,9 @@
 			<!-- /.row -->
 		</div>
 	</footer>
+	<script src="js/wow.min.js"></script>
+	<script>
+		new WOW().init();
+	</script>
 </body>
 </html>
